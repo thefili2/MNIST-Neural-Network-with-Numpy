@@ -1,4 +1,4 @@
-# NumPy Neural Network: No PyTorch, No Tensorflowf
+# NumPy Neural Network: No PyTorch, No Tensorflow
 
 Most ML tutorials slap together a few `keras.layers`, hit `.fit()`, and call it a day. This is the opposite of that.
 
