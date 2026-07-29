@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neural Networks with Numpy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Neural Network Setup</h1>
+        
+        <section id="requirements">
+            <h2>Requirements</h2>
+            <ul>
+                <li>Have Python installed on your device.</li>
+            </ul>
+        </section>
+
+        <section id="installation">
+            <h2>Installation & Execution</h2>
+            <p>If you have Python installed, run the following commands:</p>
+            <ul>
+                <li>Clone the repository: <code>git clone https://github.com/thefili2/MNIST-Neural-Network-with-Numpy.git</code></li>
+                <li>Navigate to the folder<li>
+                <li>Install dependencies: <code>pip install tensorflow numpy</code></li>
+                <li>Run the script: <code>python main.py</code></li>
+            </ul>
+        </section>
+
+        <section id="full-network-demo">
+            <h2>Network Architecture</h2>
+            <p>A full speed visualization of the forward pass. Input (784) -> Dense (256) -> Dense (128) -> Dense (64) -> Output (10).</p>
+            <canvas id="fullNet" width="700" height="350"></canvas>
+        </section>
+
+        <section id="interactive-demo">
+            <h2>Step-by-Step Demo</h2>
+            <p>A smaller network to visualize the inner workings. Click "Step" to cycle through the phases.</p>
+            <div class="controls">
+                <button id="stepBtn">Step</button>
+                <span id="status">Ready to start.</span>
+            </div>
+            <canvas id="stepNet" width="600" height="350"></canvas>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
